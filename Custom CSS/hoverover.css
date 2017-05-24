@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+ .hover-img figcaption h2 { color: #ffffff; font-size: 22px; }
+ .hover-img figcaption div.paragraph { color: #ffffff; font-size: 16px; }
+ .hover-img figcaption p { color: #ffffff; font-size: 16px; }
+ .hover-img .hover-img-content{ background: #fff; }
+ .hover-img .hover-img-content h2 { color: ; font-size: ; }
+ .hover-img .hover-img-content div.paragraph { color: ; font-size: ; }
+ .hover-img .hover-img-content p { color: ; font-size: ; }
+ .hover-image-button { color: #000; background: #eeeeee; border: 1px solid #ffffff; }
+ .hover-image-button:hover { color: #000; background: #ffffff; }
+ .hover-img-content .hover-image-button { color: #000; background: #ffffff; border: 1px solid #484848; }
+ .hover-img-content .hover-image-button:hover { color: #000; background: #eee; }
+ .hover-img{display:inline-block; width:100%; margin:0; position:relative}
+ .hover-img figure{-webkit-margin-before:0; -webkit-margin-after:0; -webkit-margin-start:0; -webkit-margin-end:0; overflow:hidden; margin:0; position:relative; cursor: pointer;}
+ .hover-img figure img{width:100%; display:block; position:relative}
+ .hover-img figcaption{position:absolute; left:0; background-color:#262626; color:#fff; height:100%; width:100%; top:auto; bottom:0; opacity:0; -webkit-transform:translateX(-100%); -moz-transform:translateX(-100%); -ms-transform:translateX(-100%); transform:translateX(-100%); -webkit-backface-visibility:hidden; -moz-backface-visibility:hidden; backface-visibility:hidden; -webkit-transition:-webkit-transform 0.4s,opacity 0.1s 0.3s; -moz-transition:-moz-transform 0.4s,opacity 0.1s 0.3s; transition:transform 0.4s,opacity 0.1s 0.3s}
+ .hover-img figup{position:absolute; left:0; background-color:#262626; color:#fff; height:100%; width:100%; top:auto; bottom:0; opacity:0; -webkit-transform:translateY(100%); -moz-transform:translateY(100%); -ms-transform:translateY(100%); transform:translateY(100%); -webkit-backface-visibility:hidden; -moz-backface-visibility:hidden; backface-visibility:hidden; -webkit-transition:-webkit-transform 0.4s,opacity 0.1s 0.3s; -moz-transition:-moz-transform 0.4s,opacity 0.1s 0.3s; transition:transform 0.4s,opacity 0.1s 0.3s}
+ .orange{background:#ff8a3c !important}
+ .cyan{background:#42bdc2 !important}
+ .green{background:#7fc242 !important}
+ .blue{background:#2c3f52 !important}
+ .lightblue{background:#a1def8 !important}
+ .palegreen{background:#3fbf79 !important}
+ .violet{background:#db6ac5 !important}
+ .yellow{background:#fee664 !important}
+ .silver{background:#cad3d0 !important}
+ .pink {background-color: #c50379 !important;}
+ .hover-img figcaption .caption-padding{text-align:center; height: 100%;}
+ .hover-img figure:hover figcaption{opacity:0.9; -webkit-transform:translateY(0px); -moz-transform:translateY(0px); -ms-transform:translateY(0px); transform:translateY(0px); -webkit-transition:-webkit-transform 0.4s,opacity 0.1s; -moz-transition:-moz-transform 0.4s,opacity 0.1s; transition:transform 0.4s,opacity 0.1s}
+ .hover-img .hover-img-content{padding:25px 10%; margin-bottom:15px}
+ .caption-padding h3{padding-top: 15%;}
+ .hover-img .style1 figure{ border: 2px #ffffff solid; -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; margin: 5px 5px 20px 5px; }
+ .hover-img .style2 figure{ -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; margin: 5px 5px 20px 5px; }
+ .hover-img .style3 figure{ border: 6px solid #f1f1f1; -webkit-box-shadow: 0 8px 10px -6px rgba(0,0,0,0.5); -moz-box-shadow: 0 8px 10px -6px rgba(0,0,0,0.5); box-shadow: 0 8px 10px -6px rgba(0,0,0,0.5); }
+ .hover-img .style4 { -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; margin: 5px 5px 20px 5px; }
+ .hover-img figcaption.article .caption-padding{ background: url('http://weeblywidgets.weebly.com/files/theme/article-icon.png?1403088829') center center no-repeat; }
+ .hover-img figcaption.image .caption-padding{ background: url('http://weeblywidgets.weebly.com/filestheme/image-icon.png?1403088829') center center no-repeat; }
+ .hover-img figcaption.video .caption-padding{ background: url('http://weeblywidgets.weebly.com/filestheme/video-icon.png?1403088829') center center no-repeat; }
+ .hover-img figcaption.info .caption-padding{ background: url('http://weeblywidgets.weebly.com/filestheme/info-icon.png?1403088829') center center no-repeat; }
+ .hover-image-button { display: inline-block; padding: 15px; margin-top: 10px; -webkit-transition: .2s ease-out; -moz-transition: .2s ease-out; -o-transition: .2s ease-out; -ms-transition: .2s ease-out; transition: .2s ease-out; cursor: pointer; }
+ .hover-image-button:hover { -webkit-transition: .4s ease-out; -moz-transition: .4s ease-out; -o-transition: .4s ease-out; -ms-transition: .4s ease-out; transition: .4s ease-out; }
